@@ -1,0 +1,37 @@
+{
+    // Utilisez IntelliSense pour en savoir plus sur les attributs possibles.
+    // Pointez pour afficher la description des attributs existants.
+    // Pour plus d'informations, visitez : https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "chrome",
+            "url": "blog/santé-du-cerveau.html",
+            "webRoot": "blog/santé-du-cerveau.html"
+        },
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+    {
+        "name": "Attach to Chrome",
+        "port": 9222,
+        "request": "attach",
+        "type": "chrome",
+        "webRoot": "${workspaceFolder}"
+    },
+        
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Open Accueil.html",
+            "file": "c:\\Users\\BrondonTech\\Documents\\Nicepage Templates\\Dr Hopson new\\Accueil.html"
+        }
+    ]
+}
